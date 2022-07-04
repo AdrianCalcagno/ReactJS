@@ -1,38 +1,289 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Selectores */
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+	font-size: 62.5%;
+	}
+
+a{
+	text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2,h3{
+	color: #AB6550;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+	color:#AB6550;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Display Gird */
+
+.contenedor{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "nav" "textHeader" "imgHeader" "planes" "footer";
+}
+
+#nav{
+	grid-area: nav;
+}
+
+#textHeader{
+	grid-area: textHeader;
+}
+
+#imgHeader{
+	grid-area: imgHeader;
+}
+
+#planes{
+	grid-area: planes;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+/* Nav */
+
+.encabezado{
+		background-color: #AB6550;
+		opacity: 0.7;
+		position: sticky;	
+		top: 0;
+		padding: 10px 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+
+.contenedorLista{
+}
+
+	.encabezado img{
+		width: 200px;
+		margin-bottom: 5px;
+	}
+
+	.encabezado ol{
+		display: flex;
+	}
+
+	.encabezado ol li{
+		list-style: none;
+		margin-right: 20px;
+	}
+		.encabezado ol li a{
+			font-size: 1.8rem;
+			text-decoration: none;
+			color: white;
+		}
+		.encabezado ol li a:hover{
+			color: black;
+			font-weight: 600;
+		}
+
+		
+.textoEncabezado{
+	display: inline-block;
+	color: #AB6550;
+	font-size: 3rem;
+		}
+
+		.textoCentrado{
+			display: flex;
+  			align-items: bottom;
+			}
+
+.textCima{
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 900;
+	color: #AB6550;
+	font-size: 3rem;
+		}
+
+	.imgEncabezado{
+	width:80%;
+	margin-bottom: 10px;
+	}
+
+/* Boton Contactar */
+
+.button{
+margin-bottom: 20px;
+ padding: 10px;
+ border: unset;
+ border-radius: 15px;
+ color: white;
+ z-index: 1;
+ background: #AB6550;
+ position: relative;
+ font-weight: 800;
+ font-size: 2rem;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+button {
+ position: relative;
+ display: inline-block;
+ margin-top: 10px;
+ padding: 10px 10px;
+ text-align: center;
+ font-size: 2rem;
+ letter-spacing: 1px;
+ text-decoration: none;
+ color: #AB6550;
+ background: transparent;
+ cursor: pointer;
+ transition: ease-out 0.5s;
+ border-radius: 30px;
+ border: 2px solid #AB6550;
+ border-radius: 10px;
+ box-shadow: inset 0 0 0 0 #AB6550;
+}
+
+button:hover {
+ color: white;
+ box-shadow: inset 0 -100px 0 0 #AB6550;
+}
+
+button:active {
+ transform: scale(0.9);
+}
+
+
+/* Clases generales */
+
+	
+.titulos{
+	text-align:center;
+	color: #AB6550;
+	font-size: 2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+		}
+
+.subtitulos{
+	text-align:center;
+	color: #AB6550;
+	font-size: 1.8rem;
+		}
+
+.textoPlanes{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align:center;
+	line-height: 2.2rem;
+	font-size: 1.5rem;
+}
+
+.textBold{
+	font-weight: bolder;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+/* Clases del Footer */
+
+.pie{
+	padding:10px;
+	display: inline-block;
+	flex-direction: column;
+	align-items: left;
+	background-color: #AB6550;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.logoFooter{
+	width: 30%;
+	margin-bottom: 5px;
+	}
+
+.redesDerecha{
+		font-size: 1.5rem;
+		color: white;
+		}
+
+		.redesIcon{
+		margin-top: 10px;
+		width: 30px;
+		}
+
+		.nuestrosClientes{
+			font-size: 3rem;
+			}
+
+		/* animations  */
+
+
+/* animations  */
+
+.animacionImagen{
+width: 200px;
+margin: 20px;
+padding: 20px;
+}
+
+.animacionImagen:hover{
+filter: blur(5px);
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #AB6550;
+-webkit-box-shadow: 0px 0px 15px 15px #AB6550;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+
+@keyframes clientesAnimation{
+	0%{font-size: 3rem}
+	25%{font-size: 4rem}
+	50%{font-size: 5rem}
+	75%{font-size: 6rem}
+	100%{font-size: 7rem}
+	
+}
+
+
+.clientesAnimation{
+	animation-name:clientesAnimation ;
+	animation-duration: 5s;
+	animation-timing-function: linear;
 }
