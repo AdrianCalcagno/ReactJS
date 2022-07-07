@@ -27,10 +27,6 @@ p{
 	color:#AB6550;
 }
 
-body{
-
-}
-
 
 /* Display Gird */
 
@@ -75,10 +71,9 @@ body{
 		align-items: center;
 		justify-content: space-between;
 		margin-bottom: 10px;
+		align-items: center;
+		text-align: center;
 	}
-
-.contenedorLista{
-}
 
 	.encabezado img{
 		width: 200px;
@@ -87,23 +82,46 @@ body{
 
 	.encabezado ol{
 		display: flex;
+		align-items: center;
+		text-align: center;
 	}
 
 	.encabezado ol li{
 		list-style: none;
 		margin-right: 20px;
+		text-align: center;
+		align-items: center;
 	}
 		.encabezado ol li a{
 			font-size: 1.8rem;
 			text-decoration: none;
 			color: white;
+			align-items: center;
 		}
 		.encabezado ol li a:hover{
 			color: black;
 			font-weight: 600;
 		}
 
-		
+		.encabezado ol li button{
+
+			text-align: center;
+			justify-content: flex-end;
+			box-sizing: border-box;
+			width: 70px;
+			height: 70px;
+			overflow-y: hidden;
+			align-items: center;
+			
+		}
+
+		.encabezado ol li button img{
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			align-items: center;
+		}
+
 .textoEncabezado{
 	display: inline-block;
 	color: #AB6550;

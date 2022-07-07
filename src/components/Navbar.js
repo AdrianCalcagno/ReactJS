@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({children}) => {
 return (
 
 	<nav className="encabezado" id="nav">
@@ -19,6 +19,9 @@ return (
 				</li>
 				<li>
 					<a href="pages/contacto.html">Contacto</a>
+				</li>
+				<li>
+					{children}
 				</li>
 			</ol>
 
