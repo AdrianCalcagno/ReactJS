@@ -19,7 +19,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
 <h5 style={{
           fontSize: '200%',
           marginTop: 20,
-        }}>Contador</h5>
+        }}>¿Cuántos packs queres comprar?</h5>
 
 <div style={{
          fontSize: '200%',

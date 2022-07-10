@@ -6,16 +6,17 @@ import ItemCount from './components/ItemCount'
 
 function App() {
 
-  const onAdd = () => {};
+  const onAdd = () => {
+    console.log('hizo click')
+  };
   
   return (
     <div className="App">
      <Navbar> 
      <CartWidget/>
     </Navbar>
-  
-     <ItemListContainer listContainer="Bienvenido, Luciano"/>
-     <ItemCount stock={5} initial={1}/>
+     <ItemListContainer ListContainer="Bienvenido, Luciano"/>
+     <ItemCount stock={5} initial={1} onAdd={onAdd}/>
 
     </div>
   );
