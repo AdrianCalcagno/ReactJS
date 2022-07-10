@@ -75,6 +75,11 @@ p{
 		text-align: center;
 	}
 
+	.divContador{
+
+		margin: 20px;
+	}
+
 	.encabezado img{
 		width: 200px;
 		margin-bottom: 5px;
