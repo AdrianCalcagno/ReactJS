@@ -1,25 +1,22 @@
-import './App.css';
-import Navbar from './components/Navbar'
-import CartWidget from './components/CartWidget'
-import ItemListContainer from './components/ItemListContainer'
-import ItemCount from './components/ItemCount'
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import Loader from "./components/Loader/Loader"
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-function App() {
-
-  const onAdd = () => {
-    console.log('hizo click')
-  };
-  
+const App = () => {
   return (
-    <div className="App">
-     <Navbar> 
-     <CartWidget/>
-    </Navbar>
-     <ItemListContainer ListContainer="Bienvenido, Luciano"/>
-     <ItemCount stock={5} initial={1} onAdd={onAdd}/>
-
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<ItemListContainer />} />
+        <Route path='categoria/:categoria' element={<ItemListContainer />} />
+        <Route path="item/:id" element={<ItemDetailContainer />} />
+        <Route path="*" element={<Link to="/"><Loader /></Link>} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

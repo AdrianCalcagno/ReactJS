@@ -38,6 +38,19 @@ p{
 	grid-template-areas: "nav" "textHeader" "imgHeader" "planes" "footer";
 }
 
+.masGrande{
+	font-size: 50px;
+}
+
+.noTanGrande{
+	font-size: 40px;
+}
+
+.casiChico{
+	font-size: 25px;
+}
+
+
 #nav{
 	grid-area: nav;
 }
@@ -60,6 +73,13 @@ p{
 
 /* Nav */
 
+.espacioUl{
+
+margin-bottom: 20px;
+padding-bottom: 20px;
+
+}
+
 .encabezado{
 		background-color: #AB6550;
 		opacity: 0.7;
@@ -70,7 +90,7 @@ p{
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 		align-items: center;
 		text-align: center;
 	}
@@ -304,6 +324,10 @@ transform: rotate(360deg);
 	
 }
 
+.logoCarrito{
+width: 3%!important;
+align-content: center;
+}
 
 .clientesAnimation{
 	animation-name:clientesAnimation ;
@@ -311,3 +335,50 @@ transform: rotate(360deg);
 	animation-timing-function: linear;
 }
 
+.navbar {
+	height: auto;
+	padding: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .logo-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .logo {
+	pointer-events: none;
+  }
+  
+    
+  .link-container {
+	margin-right: 100px;
+	
+  }
+  
+  .link-container ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .link {
+	margin: 0 10px;
+	color: var(--texto);
+	font-size: 20px;
+  }
+  
+  .link-activo{
+	margin: 0 10px;
+	margin-bottom: 5px;
+	color: white;
+	border: 1px solid var(--otro);
+	padding: 4px 8px;
+	border-radius: 10px;
+	font-size: 20px;
+	box-shadow: 1px 1px 10px rgb(34, 34, 34);
+  }
