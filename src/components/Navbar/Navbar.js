@@ -6,15 +6,16 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="encabezado" id="nav">
-      <Link to="/" className="">        
+      <Link to="/" className="logo">        
       <img src={logo} alt="logo" className="logo"/>
-            
       </Link>
     
         <ul className="espacioUl">
           <NavLink to="/categoria/recomendadas" className={({isActive})=>isActive? "link-activo" : "link"}>Recomendadas</NavLink>
           <NavLink to="/categoria/masvistas" className={({isActive})=>isActive? "link-activo" : "link"}>Más Vistas</NavLink>
-          <CartWidget />
+          <Link className="links" to="/cart">
+                <CartWidget />
+            </Link>
         </ul>
      </nav>
 
