@@ -43,7 +43,7 @@ const Cart = () => {
                     }}onClick={deleteAll}>Eliminar todos los productos</button>
             <h1 style={{
                         marginTop: '15px',
-                    }}>Total: ${suma} </h1>
+                     }}>Total: ${suma} </h1>
                      <button style={{
                         fontSize: '15px',
                     }}>Finalizar Compra</button>
