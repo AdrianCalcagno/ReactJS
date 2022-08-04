@@ -7,8 +7,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
-
+	
 }
 
 html{
@@ -84,8 +83,13 @@ padding: 10px;
 
 /* Nav */
 
-.espacioUl{
+#espacioUl{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
 padding: 10px;
+
 }
 
 .encabezado{
@@ -93,11 +97,8 @@ padding: 10px;
 		opacity: 0.7;
 		position: sticky;	
 		top: 0;
-		padding: 20px 30px;
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
 		margin-bottom: 10px;
 		align-items: center;
 		text-align: center;
@@ -108,22 +109,29 @@ padding: 10px;
 		margin: 20px;
 	}
 
+	.espacioDebajo{
+		margin-bottom: 20px;
+	}
+
 	.encabezado img{
-		width: 200px;
-		margin-bottom: 5px;
+	width: 150px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	align-self: flex-start;
 	}
 
 	.encabezado ol{
 		display: flex;
-		align-items: center;
-		text-align: center;
+		align-items: start;
+		text-align: start;
 	}
 
 	.encabezado ol li{
 		list-style: none;
 		margin-right: 20px;
-		text-align: center;
-		align-items: center;
+		text-align: start;
+		align-items: flex-start;
 	}
 		.encabezado ol li a{
 			font-size: 1.8rem;
@@ -358,8 +366,11 @@ margin-top: 15px;
 	justify-content: space-between;
 	align-items: center;
   }
-  .logo {
-	margin-bottom: 10px;
+  #logo {
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	align-self: flex-start;
   }
   
     
@@ -377,7 +388,7 @@ margin-top: 15px;
   
   .link {
 	margin: 0 10px;
-	color: black;
+	color: white;
 	font-weight: 600;
 	font-size: 20px;
   }
@@ -385,7 +396,8 @@ margin-top: 15px;
   .link-activo{
 	margin: 0 10px;
 	margin-bottom: 5px;
-	color: white;
+	color: black;
+	font-weight: 600;
 	border: 1px solid var(--otro);
 	padding: 4px 8px;
 	border-radius: 10px;

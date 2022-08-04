@@ -7,8 +7,7 @@ const Provider = (props) => {
     const [suma, setSuma] = useState(0)
 
     useEffect(() => {
-        console.log(cart)
-        totalCart()
+    totalCart()
     }, [cart])
 
     const addToCart = (item, cantidad) => {
@@ -43,6 +42,8 @@ const Provider = (props) => {
         setCart(productosFiltrados);
     };
 
+    
+
     const deleteAll = () => {
         setCart([]);
     };
@@ -55,3 +56,4 @@ const Provider = (props) => {
 };
 
 export default Provider;
+

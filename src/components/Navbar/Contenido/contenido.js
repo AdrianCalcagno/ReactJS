@@ -4,9 +4,9 @@ const Contenido = () => {
   return (
     <div className="contenidoApp" id=''>
     
-    <h1>Bienvenidos a FilmClub App</h1>
+    <h1 className='espacioDebajo'> Bienvenidos a FilmClub App</h1>
    
-    <h2>¡Elegi tu película!</h2>
+    <h2>Las mejores <strong>películas</strong>, al mejor <strong>precio</strong></h2>
     
     </div>
 
