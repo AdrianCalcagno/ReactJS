@@ -11,8 +11,8 @@ const Navbar = () => {
       </Link>
     
         <ul id="espacioUl">
-          <NavLink to="/categoria/recomendadas" className={({isActive})=>isActive? "link-activo" : "link"}>Recomendadas</NavLink>
-          <NavLink to="/categoria/masvistas" className={({isActive})=>isActive? "link-activo" : "link"}>Más Vistas</NavLink>
+          <NavLink to="/categoria/recomendadas" style={{textDecoration:'none'}} className={({isActive})=>isActive? "link-activo" : "link"}>Recomendadas</NavLink>
+          <NavLink to="/categoria/masvistas" style={{textDecoration:'none'}}  className={({isActive})=>isActive? "link-activo" : "link"}>Más Vistas</NavLink>
           <Link className="links" to="/cart">
                 <CartWidget />
             </Link>

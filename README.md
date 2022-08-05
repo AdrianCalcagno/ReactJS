@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# FilmClub App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto corresponde a un e-Commerce de tipo single-page dedicado a brindar las mejores películas al mejor precio.
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+_Descarga el proyecto y utiliza npx create react app "nombre" para crear una aplicación y poder visualizarlo. 
+Para poder editarlo deberás poseer un editor como Visual Studio Code o Sublime._
 
-### `npm start`
+## Herramientas 🛠️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_Para llevar adelante este proyecto utilicé:_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [NodeJs](https://nodejs.org/es/) - Entorno multiplataforma
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código
+* [Google Chrome](https://www.google.com/intl/es/chrome/) - Navegador Web
+* [Firebase](https://firebase.google.com/?hl=es) - Backend
 
-### `npm test`
+### Código 🔧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* HTML
+* CSS
+* JAVASCRIPT
+* REACT JS
+* 
+### Dependencias utilizadas 🔧
 
-### `npm run build`
+* sweetalert
+* react-router-dom
+* react-hook-form
+* 
+* 
+* 
+* 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Autor ✒️
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **Adrián Calcagno** - *Desarrollo completo* - [adriancalcagno](https://www.linkedin.com/in/adriancalcagno/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licencia 📄
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este proyecto está bajo Licencia - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-## Learn More
+## ¡Gracias! 🎁
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Quisiera dar las gracias a todos aquellos que estuvieron involucrados en la creación de este proyecto, brindando sus conocimientos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Eric Wajnrajch (Coordinador)
+* Luciano Giraudi (Tutor)
+* Juan Magos (Profesor)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
