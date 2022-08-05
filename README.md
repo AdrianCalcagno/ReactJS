@@ -23,23 +23,14 @@ _Para llevar adelante este proyecto utilicé:_
 * JAVASCRIPT
 * REACT JS
 * 
-### Dependencias utilizadas 🔧
+### Librerias utilizadas 🔧
 
 * sweetalert
-* react-router-dom
-* react-hook-form
-* 
-* 
-* 
-* 
-
-
+Para obtener una mejor visualización de las alertas.
 
 ## Autor ✒️
 
-
 * **Adrián Calcagno** - *Desarrollo completo* - [adriancalcagno](https://www.linkedin.com/in/adriancalcagno/)
-
 
 ## Licencia 📄
 
