@@ -22,29 +22,22 @@ _Para llevar adelante este proyecto utilicé:_
 * CSS
 * JAVASCRIPT
 * REACT JS
-* 
+ 
 ### Librerias utilizadas 🔧
 
 * sweetalert
-<<<<<<< HEAD
 * react-router-dom
 * react-hook-form
-=======
-Para obtener una mejor visualización de las alertas.
->>>>>>> c174f17eefa447c96c2c0ddce84a4fc97db1e3d2
 
 ## Autor ✒️
 
 * **Adrián Calcagno** - *Desarrollo completo* - [adriancalcagno](https://www.linkedin.com/in/adriancalcagno/)
 
-<<<<<<< HEAD
 ## ¿Cómo comprar? 📄
 
 Sigue las instrucciones de este video para comprar en la tienda:
 [GIF.gif](GIF.gif) o mediante el siguiente link: (https://youtu.be/QWUUK50r-Ng)
 
-=======
->>>>>>> c174f17eefa447c96c2c0ddce84a4fc97db1e3d2
 ## Licencia 📄
 
 Este proyecto está bajo Licencia - mira el archivo [LICENSE.md](LICENSE.md) para detalles
