@@ -8,9 +8,7 @@ const ItemListContainer = () => {
   const [items, setItems] = useState([]);
   const [cargando, setCargando] = useState(true);
   const { categoria } = useParams();
-
-    useEffect( () => {
-    
+  const fireBase = () => {
     const querydb = getFirestore();
     const queryCollection = collection(querydb,'items');
     if(categoria) {
@@ -21,15 +19,17 @@ const ItemListContainer = () => {
       getDocs(queryCollection)
       .then(res => setItems(res.docs.map(product => ({id: product.id, ...product.data()})))) 
     }
+
+  }
+    useEffect( () => {
+    fireBase();    
     setCargando(false);
     },
     [categoria]
   );
 
-
-
   return(<>{cargando ? <Loader /> : <ItemList items={items} />}</>)
-  
+
 };
 
 export default ItemListContainer;

@@ -28,18 +28,15 @@ _Para llevar adelante este proyecto utilicé:_
 * sweetalert
 * react-router-dom
 * react-hook-form
-* 
-* 
-* 
-* 
-
-
 
 ## Autor ✒️
 
-
 * **Adrián Calcagno** - *Desarrollo completo* - [adriancalcagno](https://www.linkedin.com/in/adriancalcagno/)
 
+## ¿Cómo comprar? 📄
+
+Sigue las instrucciones de este video para comprar en la tienda:
+[GIF.gif](GIF.gif) o mediante el siguiente link: (https://youtu.be/QWUUK50r-Ng)
 
 ## Licencia 📄
 
