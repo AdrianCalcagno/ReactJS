@@ -35,7 +35,7 @@ _Para llevar adelante este proyecto utilicé:_
 
 ## ¿Cómo comprar? 📄
 
-<p> <img src="https://i.ibb.co/4RQ5RQv/GIF.gif" display="flex" width="500px" height="320" align="center" />
+<p> <img src="https://ibb.co/qYZPYZq" display="flex" width="500px" height="320" align="center" />
 
 Sigue las instrucciones de este video para comprar en la tienda:
 [GIF.gif](GIF.gif) o mediante el siguiente link: (https://youtu.be/QWUUK50r-Ng)
