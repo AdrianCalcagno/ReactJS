@@ -35,7 +35,7 @@ _Para llevar adelante este proyecto utilicé:_
 
 ## ¿Cómo comprar? 📄
 
-<p> <img src="https://tenor.com/3105d1f8-49bf-4d2c-b6a2-f42495f75cc8" width="500px" height="320" align="left" />
+<p> <img src="blob:https://tenor.com/3105d1f8-49bf-4d2c-b6a2-f42495f75cc8" width="500px" height="320" align="left" />
 
 Sigue las instrucciones de este video para comprar en la tienda:
 [GIF.gif](GIF.gif) o mediante el siguiente link: (https://youtu.be/QWUUK50r-Ng)
