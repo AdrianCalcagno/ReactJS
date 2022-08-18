@@ -35,7 +35,7 @@ _Para llevar adelante este proyecto utilicé:_
 
 ## ¿Cómo comprar? 📄
 
-<p> <img src="https://i.ibb.co/r2W12W8/GIF.gif" display="flex" width="500px" height="320" align="center" />
+<p> <img src="https://github.com/AdrianCalcagno/desafios/blob/master/GIF.gif?raw=true" display="flex" width="500px" height="320" align="center" />
 
 Sigue las instrucciones de este video para comprar en la tienda:
 [GIF.gif](GIF.gif) o mediante el siguiente link: (https://youtu.be/QWUUK50r-Ng)
